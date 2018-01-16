@@ -1,0 +1,47 @@
+.box {
+	display: flex;
+	/* flex-direction: row-reverse; */
+	/* flex-direction: column; */
+	/* flex-wrap: nowrap; */
+	/* flex-wrap: wrap; */
+	/* flex-flow: row wrap; */
+	align-items: flex-start;;	/*	flex-end, center, stretch	*/
+	justify-content: space-between; /*	center	*/
+
+	height: 100px;
+	border: 1px solid blue;
+	/* padding: .5em; */
+	/* width: 500px; */
+}
+
+.box > div {
+	border: 2px dotted blue;
+	border-radius: .25em;
+	/* padding: .25em; */
+	background-color: lightblue;
+	/* width: 10em; */
+	/* width: 100px; */
+	text-align: center;
+
+	/* flex-basis: 0; */
+	/* flex-grow: 1; */
+	/* flex: 1 1 auto;		/* flex-grow flex-shrink flex-basis */
+	/* flex: 1; */
+
+	/* *********************************************
+		flex: initial	= flex: 0 1 auto
+		flex: auto		= flex: 1 1 auto
+		flex: none		= flex: 0 0 auto
+		flex: <pos.#>	=	flex: <pos.#> <pos.#> 0
+	********************************************* */
+}
+
+.d1 {
+	/* flex-grow: 2; */
+	/* flex-shrink: 2; */
+}
+
+.d2,
+.d3 {
+	/* flex-grow: 1; */
+}
